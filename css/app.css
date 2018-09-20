@@ -1,0 +1,186 @@
+body {
+
+    font-family: 'Bree Serif', serif;
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+    font-family: 'Bree Serif', serif;
+}
+
+#contenedor-social {
+    background-color: #2E353E;
+    font-size: 1.5rem;
+}
+
+#contenedor-social i{
+    color: #1FBEA4;
+}
+
+#contenedor-titulo .callout {
+    background-color: #EA6E39;
+    color: #F4F4F3;
+    margin: 0;
+}
+
+#menu-contenedor {
+    background-color: #1FBEA4;
+    text-transform: uppercase;
+
+}
+
+#menu-contenedor li a {
+    color: #F4F4F3;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#menu-contenedor li a:hover,
+#contenedor-submenu li a:hover {
+    color: #2ecc71;
+
+}
+
+#contenedor-submenu li a {
+    color: white;
+    background-color: #48a19d;
+    ;
+}
+
+#contenedor-submenu {
+    border: 0;
+}
+
+#boletos_comprar .callout {
+    background-color: #047F8C;
+    color: white;
+    margin: 0;
+}
+
+#boletos_comprar .callout button {
+    color: white;
+    border: 1px solid white;
+}
+
+#contenedor-inicio,
+{
+    padding: 1em 0;
+}
+
+#contenedor-inicio,
+#contenedor-inicio .tabs,
+#contenedor-inicio .tabs .tabs-title,
+#contenedor-inicio .tabs .tabs-title.is-active a,
+#contenedor-inicio .tabs-panel {
+    background-color: #2E353E;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+}
+
+#contenedor-tabs {
+    border: 0;
+}
+
+#contenedor-inicio .tabs .tabs-title a {
+    font-size: 18px;
+    color: #a7fffb;
+    font-family: 'Bree Serif', serif;
+}
+
+#contenedor-inicio .tabs .tabs-title a:hover {
+    color: white;
+    background-color: #2980b9;
+}
+
+.tabs-title {
+    display: inline-block;
+    float: none;
+}
+
+#contenedor-inicio .orbit {
+    margin-bottom: 1em;
+}
+
+#contenedor-inicio .column:nth-child(odd) .orbit-caption {
+    text-align: right;
+}
+
+#contenedor-compras-boletos{
+    padding: 1em 0;
+    background-color: #EA6E39;
+    color: #161742;
+}
+
+#info_contenedor{
+    background-color: #2E353E;
+    color: white;
+    padding: 1em 0;
+}
+
+#info_contenedor .info-mapa iframe{
+    width: 100%;
+}
+
+#suscribirse-contenedor{
+    background-color: #e74c3c;
+    color: white;
+    padding: 1em 0;
+}
+
+#suscribirse-contenedor h4 small{
+    color: #ffcddc;
+}
+
+#suscribirse-contenedor input[type="submit"]{
+  font-family: 'Bree Serif', serif;  
+}
+
+#suscribirse-contenedor .error-contenedor{
+    font-family: 'Bree Serif', serif; 
+}
+
+.is-invalid-input:not(:focus){
+    
+    background-color: rgb(255,255,228);
+    border-color: rgb(255, 228,228);
+}
+
+#offCanvas,
+#offCanvas li a{
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif', serif; 
+}
+
+#offCanvas .drilldown .is-drilldown-submenu-parent > a::after{
+    border-color: transparent transparent transparent white;
+}
+
+#offCanvas .drilldown .js-drilldown-back > a::before{
+    border-color: transparent white transparent transparent;
+}
+
+#contenedor-compras-boletos > h3{
+    color: white;
+}
+
+.orbit img{
+    transition:all .5s ease-out;
+}
+
+.orbit img:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.orbit {
+    height: auto !important;
+    box-shadow: 5px 10px 10px rgba(68, 68, 68, 0.5);
+    overflow: hidden;
+}
+
